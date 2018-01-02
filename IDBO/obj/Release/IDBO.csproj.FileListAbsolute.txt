@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Release\IDBO.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Release\IDBO.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Release\CodeHelper.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Release\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Release\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Release\CodeHelper.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Release\Utility.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Release\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\obj\Release\IDBO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\obj\Release\IDBO.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\obj\Release\IDBO.pdb

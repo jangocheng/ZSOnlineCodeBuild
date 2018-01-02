@@ -1,0 +1,82 @@
+﻿using Comp;
+using DAL;
+using Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace Web.Controllers
+{
+    public class {$tablename}Controller : BaseController
+    {
+        D_{$tablename} d{$tablename} = new D_{$tablename}();
+
+        /// <summary>
+        /// 列表
+        /// </summary>
+        public ActionResult {$tablename}List({$modelname} model)
+        {
+            model.pagesize = 15;
+            model.pageindex = (model.pageindex != null) ? model.pageindex-1 : 0;
+            ViewBag.{$tablename}list = d{$tablename}.GetList(model);
+            int count = d{$tablename}.GetCount(model);
+            ViewBag.page = Utils.ShowPage(count, model.pagesize, Convert.ToInt32(model.pageindex) == 0 ? 1 : Convert.ToInt32(model.pageindex) + 1, 5);
+            return View();
+        }
+
+        /// <summary>
+        /// 保存
+        /// </summary>
+        [ValidateInput(false)]
+        public ActionResult Save({$modelname} model)
+        {
+            bool result = false;
+            string msg = "";
+            if (model.{$primarykeyname} > 0)//若存在数据，执行更新
+            {
+                result = d{$tablename}.Update(model);
+                msg = result ? "修改成功！" : "修改失败！";
+            }
+            else
+            {
+                result = d{$tablename}.Add(model) > 0;//若不存在数据，直接插入
+                msg = result ? "添加成功！" : "添加失败！";
+            }
+
+            if(!result)
+            {
+                Response.Write("<script>alert('"+ msg + "');</script>");
+            }
+            Response.Write("<script>top.window.location.reload();</script>");
+            Response.End();
+            return View();
+        }
+
+        /// <summary>
+        /// 删除
+        /// </summary>
+        public bool Delete(int id)
+        {
+            {$modelname} model = new {$modelname}();
+            model.{$primarykeyname} = id;
+            return d{$tablename}.Delete(model);
+        }
+
+        /// <summary>
+        /// 详情
+        /// </summary>
+        public ActionResult {$tablename}Edit(int? id)
+        {
+            {$modelname} model = new {$modelname}();
+            if (id != null)
+            {
+                model.{$primarykeyname} = Convert.ToInt32(id);
+                model = d{$tablename}.GetList(model).FirstOrDefault();
+            }
+            ViewBag.Info = model;
+            return View();
+        }
+    }
+}

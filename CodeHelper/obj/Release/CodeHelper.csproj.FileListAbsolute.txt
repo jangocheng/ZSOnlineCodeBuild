@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\bin\Release\CodeHelper.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\bin\Release\CodeHelper.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\bin\Release\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\bin\Release\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\bin\Release\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\bin\Release\Utility.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\obj\Release\CodeHelper.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\obj\Release\CodeHelper.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CodeHelper\obj\Release\CodeHelper.pdb

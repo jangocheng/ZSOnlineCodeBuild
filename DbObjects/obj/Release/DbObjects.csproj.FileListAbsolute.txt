@@ -1,0 +1,13 @@
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\DbObjects.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\DbObjects.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\CodeHelper.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\IDBO.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\CodeHelper.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\IDBO.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\Utility.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Release\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\obj\Release\DbObjects.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\obj\Release\DbObjects.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\obj\Release\DbObjects.pdb

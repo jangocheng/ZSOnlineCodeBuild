@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\Builder.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\Builder.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\CodeHelper.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\Model.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\IDBO.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\CodeHelper.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\Model.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\Utility.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\bin\Release\IDBO.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\obj\Release\Builder.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\obj\Release\Builder.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Builder\obj\Release\Builder.pdb

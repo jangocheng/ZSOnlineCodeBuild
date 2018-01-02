@@ -1,0 +1,4 @@
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\bin\Release\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\bin\Release\Utility.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\obj\Release\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\obj\Release\Utility.pdb

@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Comp;
+using Dapper;
+using Model;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace DAL
+{
+    /// <summary>
+    /// {$tabledescription}
+    /// </summary>
+    public class {$dalname}
+    {
+        /// <summary>
+        /// 查询条件
+        /// </summary>
+        private string GetSqlWhere({$modelname} model)
+        {
+            //查询语句
+            StringBuilder strWhere = new StringBuilder();
+            {$strwhere}
+            return strWhere.ToString();
+        }
+
+        /// <summary>
+        /// 查询
+        /// </summary>
+        public List<{$modelname}> GetList({$modelname} model)
+        {
+            List<{$modelname}> list = new List<{$modelname}>();
+
+            string pagewhere = "";
+            if (model.pageindex != null && model.pagesize > 0 && !model.iscountsearch) //分页查询
+            {
+                pagewhere="where rowid between @pageindex*@pagesize and (@pageindex+1)*@pagesize";
+            }
+
+            StringBuilder SearchSql = new StringBuilder();
+            SearchSql.Append($@"
+                            select * from (
+                            select row_number()over(order by updatetime desc) as rowid,* from
+                                (
+                                    select * from {$tablename} {GetSqlWhere(model)}
+                                ) as T
+                            ) as TT
+                            {pagewhere}");
+
+                using (IDbConnection conn = new SqlConnection(PubConstant.GetConnectionString()))
+            {
+                list = conn.Query<{$modelname}>(SearchSql.ToString(), model)?.ToList();
+            }
+            return list;
+        }
+
+        /// <summary>
+        /// 数量
+        /// </summary>
+        public int GetCount({$modelname} model)
+        {
+            StringBuilder strSql = new StringBuilder();
+            model.iscountsearch = true;
+            strSql.Append($"select count(1) from {$tablename} {GetSqlWhere(model)}");
+            using (IDbConnection conn = new SqlConnection(PubConstant.GetConnectionString()))
+            {
+                return (int)conn.ExecuteScalar(strSql.ToString(), model);
+            }
+        }
+
+        /// <summary>
+        /// 添加
+        /// </summary>
+        public int Add({$modelname} model)
+        {
+            string sql = @"{$insertsql}";
+            using (IDbConnection conn = new SqlConnection(PubConstant.GetConnectionString()))
+            {
+                return Convert.ToInt32(conn.ExecuteScalar(sql, model));
+            }
+        }
+
+        /// <summary>
+        /// 更新
+        /// </summary>
+        public bool Update({$modelname} model)
+        {
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append(@"{$updatesql}");
+            using (IDbConnection conn = new SqlConnection(PubConstant.GetConnectionString()))
+            {
+                return Convert.ToInt32(conn.Execute(strSql.ToString(), model)) > 0;
+            }
+        }
+
+        /// <summary>
+        /// 删除
+        /// </summary>
+        public bool Delete({$modelname} model)
+        {
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("DELETE FROM {$tablename} where {$primarykeyname}=@{$primarykeyname}");
+            using (IDbConnection conn = new SqlConnection(PubConstant.GetConnectionString()))
+            {
+                return Convert.ToInt32(conn.Execute(strSql.ToString(), model)) > 0;
+            }
+        }
+    }
+}
