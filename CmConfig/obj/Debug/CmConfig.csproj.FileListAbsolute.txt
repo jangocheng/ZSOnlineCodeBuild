@@ -1,0 +1,13 @@
+D:\WB\zs\CmConfig\bin\Debug\CmConfig.dll
+D:\WB\zs\CmConfig\bin\Debug\CmConfig.pdb
+D:\WB\zs\CmConfig\obj\Debug\CmConfig.dll
+D:\WB\zs\CmConfig\obj\Debug\CmConfig.pdb
+D:\WB\ZSCodeBuilder\CmConfig\bin\Debug\CmConfig.dll
+D:\WB\ZSCodeBuilder\CmConfig\bin\Debug\CmConfig.pdb
+D:\WB\ZSCodeBuilder\CmConfig\obj\Debug\CmConfig.dll
+D:\WB\ZSCodeBuilder\CmConfig\obj\Debug\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\bin\Debug\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\bin\Debug\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\obj\Debug\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\obj\Debug\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\obj\Debug\CmConfig.csprojResolveAssemblyReference.cache
