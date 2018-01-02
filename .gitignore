@@ -6,3 +6,5 @@
 *.xml
 *.targets
 .vs/config/applicationhost.config
+CmConfig/obj/Debug/CmConfig.csproj.FileListAbsolute.txt
+Utility/obj/Debug/Utility.csproj.FileListAbsolute.txt
