@@ -427,6 +427,7 @@
     <Content Include="Views\Code\BuilderPageList.cshtml" />
     <Content Include="Views\Code\BuilderPageEdit.cshtml" />
     <Content Include="Views\Code\BuilderCode.cshtml" />
+    <None Include="Properties\PublishProfiles\zyj_config.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
