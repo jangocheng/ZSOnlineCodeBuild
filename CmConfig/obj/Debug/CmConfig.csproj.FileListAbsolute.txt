@@ -11,3 +11,8 @@ C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\bin\Debug\CmConfi
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\obj\Debug\CmConfig.dll
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\obj\Debug\CmConfig.pdb
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\CmConfig\obj\Debug\CmConfig.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\bin\Debug\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\bin\Debug\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\obj\Debug\CmConfig.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\obj\Debug\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\obj\Debug\CmConfig.pdb

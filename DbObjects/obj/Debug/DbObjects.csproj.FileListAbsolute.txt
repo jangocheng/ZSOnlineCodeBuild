@@ -37,3 +37,16 @@ C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\DbObjects\bin\Debug\CmConf
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\DbObjects\obj\Debug\DbObjects.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\DbObjects\obj\Debug\DbObjects.dll
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\DbObjects\obj\Debug\DbObjects.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\DbObjects.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\DbObjects.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\CodeHelper.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\IDBO.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\CodeHelper.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\IDBO.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\Utility.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\bin\Debug\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\obj\Debug\DbObjects.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\obj\Debug\DbObjects.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\DbObjects\obj\Debug\DbObjects.pdb

@@ -31,3 +31,14 @@ C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\IDBO\bin\Debug\CmConfig.pd
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\IDBO\obj\Debug\IDBO.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\IDBO\obj\Debug\IDBO.dll
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\IDBO\obj\Debug\IDBO.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Debug\IDBO.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Debug\IDBO.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Debug\CodeHelper.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Debug\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Debug\CmConfig.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Debug\CodeHelper.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Debug\Utility.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\bin\Debug\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\obj\Debug\IDBO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\obj\Debug\IDBO.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\IDBO\obj\Debug\IDBO.pdb

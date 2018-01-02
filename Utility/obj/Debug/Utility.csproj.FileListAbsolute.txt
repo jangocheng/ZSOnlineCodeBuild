@@ -11,3 +11,8 @@ C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\Utility\bin\Debug\Utility.
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\Utility\obj\Debug\Utility.dll
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\Utility\obj\Debug\Utility.pdb
 C:\Users\Administrator\Documents\GitHub\ZSCodeBuilder\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\bin\Debug\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\bin\Debug\Utility.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\obj\Debug\Utility.dll
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\Utility\obj\Debug\Utility.pdb
