@@ -1,0 +1,8 @@
+*.dll
+*.pdb
+*.cache
+*.exe
+*.rsp
+*.xml
+*.targets
+.vs/config/applicationhost.config
