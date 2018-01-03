@@ -62,7 +62,7 @@ namespace ZSCodeBuilder.Controllers
             BuilderModelCode builderModel = new BuilderModelCode();
             E_ModelCode eModelCode = new E_ModelCode();
             eModelCode.Fieldlist = db.GetColumnInfoList(ePageParameter.dbname, ePageParameter.tablename);
-            eModelCode.ModelName = ePageParameter.tablename.Split('_')[1];
+            eModelCode.ModelName = ePageParameter.tablename.Replace(ePageParameter.prefix, "");
             eModelCode.BaseClass = "E_BaseModel";
             DataRow tableDescRow = db.GetTablesExProperty(ePageParameter.dbname).Select("objname='" + ePageParameter.tablename + "'").FirstOrDefault();
             if (tableDescRow != null)
@@ -83,7 +83,7 @@ namespace ZSCodeBuilder.Controllers
             BuilderDALCode builderDAL = new BuilderDALCode();
             DbObject db = new DbObject(ePageParameter.connstring);
             E_DALCode eDalCode = new E_DALCode();
-            string tname = ePageParameter.tablename.Split('_')[1];
+            string tname = ePageParameter.tablename.Replace(ePageParameter.prefix, "");
             List<ColumnInfo> list = db.GetColumnInfoList(ePageParameter.dbname, ePageParameter.tablename);
             eDalCode.Fieldlist = list;
             eDalCode.TableName = ePageParameter.tablename;
@@ -112,7 +112,7 @@ namespace ZSCodeBuilder.Controllers
             BuilderControllersCode builderControllers = new BuilderControllersCode();
             DbObject db = new DbObject(ePageParameter.connstring);
             E_ControllersCode eControllersCode = new E_ControllersCode();
-            string tname = ePageParameter.tablename.Split('_')[1];
+            string tname = ePageParameter.tablename.Replace(ePageParameter.prefix, "");
             List<ColumnInfo> list = db.GetColumnInfoList(ePageParameter.dbname, ePageParameter.tablename);
             eControllersCode.primarykeyname = list.Where(a => a.IsPrimaryKey).ToList().First().ColumnName;
             eControllersCode.modelname = "E_"+ tname.Substring(0, 1).ToUpper() + tname.Substring(1, tname.Length - 1);

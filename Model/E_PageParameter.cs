@@ -35,7 +35,11 @@ namespace Model
         /// 表名
         /// </summary>
         public string tablename { get; set; }
-        
+
+        /// <summary>
+        /// 表名前缀
+        /// </summary>
+        public string prefix { get; set; }
 
         /// <summary>
         /// 数据库链接

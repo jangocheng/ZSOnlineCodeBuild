@@ -2,3 +2,4 @@ C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\bin\Release\C
 C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\bin\Release\CmConfig.pdb
 C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\obj\Release\CmConfig.dll
 C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\obj\Release\CmConfig.pdb
+C:\Users\Administrator\Documents\GitHub\ZSOnlineCodeBuild\CmConfig\obj\Release\CmConfig.csprojResolveAssemblyReference.cache

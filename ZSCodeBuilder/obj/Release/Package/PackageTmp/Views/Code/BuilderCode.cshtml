@@ -26,7 +26,7 @@
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon">数据库：</span>
-                            <input type="text" class="form-control" id="dbname" name="dbname" value="fangor_projectmanage" />
+                            <input type="text" class="form-control" id="dbname" name="dbname" value="CMS_Catering" />
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon">登陆账号：</span>
@@ -35,6 +35,10 @@
                         <div class="input-group">
                             <span class="input-group-addon">登陆密码：</span>
                             <input type="text" class="form-control" id="password" name="password" value="KjYV9.xg.9b" />
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon">表名前缀：</span>
+                            <input type="text" class="form-control" id="prefix" name="prefix" value="tb_" />
                         </div>
                     </div>
                     <div class="form-group">
@@ -104,7 +108,8 @@
             var dbname = $("#dbname").val();
             var userid = $("#userid").val();
             var password = $("#password").val();
-            var data = "serverip=" + serverip + "&dbname=" + dbname + "&userid=" + userid + "&password=" + password + "&tablename=" + treeNode.name;
+            var prefix = $("#prefix").val();
+            var data = "serverip=" + serverip + "&dbname=" + dbname + "&userid=" + userid + "&password=" + password + "&tablename=" + treeNode.name + "&prefix=" + prefix;
             $("#ModelIframe").load("/Code/BuilderModel?" + data);
             $("#DALIframe").load("/Code/BuilderDAL?" + data);
             $("#ControllersIframe").load("/Code/BuilderControllers?" + data);
